@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Rellena tu CV</h3>
+    Nombre <br>
+    <input type="text">
+    <br>
+    Apellidos <br>
+    <input type="text">
+    <br>
+    Contraseña <br>
+    <input type="password"> <br>
+    <br>
+    Confirme Contraseña <br>
+    <input type="password"> <br>
+    Identificación <br>
+    <select name="combo">
+        <option value="1">TI</option>
+        <option value="2">CC</option>
+    </select>
+    <input type="number"> <br>
+    Sexo <br>
+    <input type="radio"> Hombre <br>
+    <input type="radio"> Mujer <br>
+    <br>
+    Incluir mi foto <br>
+    <button>Examinar...</button> No se ha seleccionado ningún archivo.
+    <br>
+    <label>
+        <input type="checkbox">Estudiante...
+    </label>
+    <br> <br>
+
+    <fieldset>
+        <legend>Datos personales</legend>
+      
+        <label for="provincia">Provincia</label> <br/>
+        <select id="provincia" name="provincia">
+          <option value="" selected="selected">- selecciona -</option>
+          <option value="2">Santander</option>
+          <option value="3">Medellin</option>
+          <option value="4">Bogota</option>
+          <option value="5">Bolivar</option>
+        </select>
+      
+        <br/><br/>
+      
+        <label for="fecha_dia">Fecha de nacimiento</label> <br/>
+        <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia" />
+        de
+        <select id="fecha_mes" name="fecha_mes">
+          <option value="1">Enero</option>
+          <option value="2">Febrero</option>
+          <option value="3">Marzo</option>
+          <option value="4">Abril</option>
+          <option value="5">Mayo</option>
+          <option value="6">Junio</option>
+          <option value="7">Julio</option>
+          <option value="8">Agosto</option>
+          <option value="9">Septiembre</option>
+          <option value="10">Octubre</option>
+          <option value="11">Noviembre</option>
+          <option value="12">Diciembre</option>
+        </select>
+        de
+        <input type="text" size="5" maxlength="4" id="fecha_ano" name="fecha_ano" />
+      
+        <br/><br/>
+      
+        <label for="temasDeInteres">Temas de interés</label> <br/>
+        <select multiple="multiple" size="5" id="temasDeInteres" name="temasDeInteres">
+          <option value="1">Administración de bases de datos</option>
+          <option value="2">Análisis y programación</option>
+          <option value="3">Arquitectura</option>
+          <option value="4">Calidad</option>
+          <option value="5">ERP, CRM, Business Intelligence</option>
+          <option value="6">Gestión de proyectos</option>
+          <option value="7">Hardware, redes y seguridad</option>
+          <option value="8">Helpdesk</option>
+          <option value="9">Sistemas</option>
+          <option value="10">Telecomunicaciones</option>
+        </select>
+      </fieldset>
+      
+      <button> <a href="formularios.html">Guardar cambios</a> </button>
+      <button>Borrar los datos introducidos</button>
+    
+</body>
+</html>
